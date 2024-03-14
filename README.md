@@ -1,0 +1,1 @@
+# testers-shop-polotovar
