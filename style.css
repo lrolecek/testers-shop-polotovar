@@ -1,0 +1,62 @@
+/* toto je černá magie, na to nesahej */
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+/* sem ↓↓↓ už můžeš psát vlastní CSS */
+
+body {
+	font-family: Inter, sans-serif;
+	background-color: #e5e5e5;
+}
+
+.card {
+	width: 30%;
+	background-color: white;
+	border: 1px solid silver;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.12);
+
+	position: relative;
+}
+
+.card-photo {
+	width: 100%;
+}
+
+.card-content {
+	padding: 30px;
+}
+
+.card-title {
+	margin-top: 0;
+}
+
+.card-price {
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.card-discount {
+	background-color: tomato;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+
+	position: absolute;
+	left: 0;
+	top: 30px;
+}
+
+.card-like {
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+.card-icon {
+	display: block;
+	width: 24px;
+	height: 24px;
+}
